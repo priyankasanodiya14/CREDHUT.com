@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+}
+
+#work{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+#work img{
+    width: 100%;
+}
+
+#featured{
+   margin: auto;
+display: flex;
+width: 85%;
+justify-content: space-between;
+}
+#featured div{
+    width: 15%;
+    /* border: 1px solid black; */
+}
+#featured div img{
+    width: 100%;
+}
+#featured div h4{
+text-align: center;
+}
+/* now trending */
+.trend{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid black; */
+}
+.trend>div{
+    width: 60%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+    font-family: sans-serif;
+
+}
+.trend>div>img{
+    width: 100%;
+}
+#tre{
+    text-align: center;
+    background-color: rgb(201, 201, 255);
+    justify-content: center;
+    justify-items: center;
+    width: 85%;
+    margin: auto;
+}
+.trend>div:hover{
+    cursor: pointer;
+    color: rgb(42, 98, 251);
+}
+/* credit */
+#Cred{
+    background-color: rgb(216, 216, 216);
+    width: 85%;
+    margin: auto;
+}
+
+.hh{
+text-align: center;
+color: blue;
+/* background-color: silver; */
+
+}
+#Credit{
+    display: flex;
+    /* background-color: silver; */
+   height: 250px;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+}
+#Credit div{
+    justify-items: center;
+    text-align: justify;
+    margin: auto;
+    gap: 10px;
+    
+}
+#Credit div h2{
+    text-align: center;
+}
+#Credit div li{
+    list-style-type: circle;
+}
+
+
+
+
+/* swiper css */
+section{
+    width: 85%;
+    
+ align-content: center;
+   /* border: 1px solid black; */
+   margin: auto;
+   padding-top: 20px;
+   background-color: rgb(232, 229, 229);
+}
+section .card1 .image{
+height: 100%;
+width:100%;
+
+/* border: 1px solid black; */
+}
+section .card1 .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;  
+     
+}
+.card1::before{
+    position: absolute;
+}
+.card1{
+   background-color: #F3F2F1; 
+   position: relative;
+   border-radius: 2px;
+   margin: auto;
+}
+.card1 .card1-content{
+    align-items: center;
+}
+
+
+.swiper{
+    width: 85%;
+    margin: auto;
+    
+}
+/* footer */
+
+footer{
+    width: 100%;
+    margin: auto;
+   color: #d8d6d3;
+    background-color: #3d3d3d;
+    justify-content: center;
+    justify-items: center;
+    height: 800px;
+    padding-top: 10px;
+}
+footer .divfoot{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    line-height: 25px;
+}
+#midpart{
+    display: flex;
+}
+/* helpp css */
+#helpp{
+  
+    width: 85%;
+    margin: auto;
+}
+#helpp img{
+    width: 100%;
+    margin: auto;
+    border: 1px 
+   
+}
+
+
+
+
+
+
+

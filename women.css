@@ -1,0 +1,80 @@
+#main-container {
+    width: 100%;
+}
+#cover {
+ background-image: url("https://prodblstmartechocm-prodmartech.ocecdn.oraclecloud.com/content/published/api/v1.1/assets/CONT25A6A794E68A41A39B72D5CB8CAB753E/hero_desktop_PNG/f210803_sm_wm_ap_cat_mod_hero.psd?format=png&type=customrendition&channelToken=e5c83a85decc4ffbbef5ef88b789798c");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ width: 100%;
+ height: 300px;
+}
+
+.Shop{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+.Shop >div{
+    width: 80%;
+}
+.Shop div img{
+    width: 100%;
+}
+/* section 2 */
+#brand2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.con2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#mid {
+    width: 90%;
+    margin: auto;
+}
+#mid img{
+    width: 100%;
+}
+
+/* brands css */
+#brandSection{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding-left: 20%;
+}
+#brandSection h3{
+text-align: center;
+}
+.brands{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+}
+.brands div{
+    width: 40%;
+}
+.brands div img{
+width: 100%;
+}
+.inner h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+#For{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
